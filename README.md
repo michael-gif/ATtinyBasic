@@ -1,6 +1,12 @@
 # ATtinyBasic
 Set of functions for the ATtiny85 with minimal program size
 
+# Included functions
+- Pin Mode
+- Digital Write
+- Analog Read
+- Software Serial
+
 # Usage
 - Download the files in `code/`
 - Include whatever header you want to use in your project
