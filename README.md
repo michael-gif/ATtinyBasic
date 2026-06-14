@@ -4,6 +4,7 @@ Set of functions for the ATtiny85 with minimal program size
 # Included functions
 - Pin Mode
 - Digital Write
+- Digital Read
 - Analog Read
 - Software Serial
 
@@ -37,6 +38,8 @@ int main() {
         _digitalWrite(PB2, LOW);
         _delay_ms(1000);
         Serial.println(_analogRead(PB3));
+        _delay_ms(1000);
+        Serial.println(_digitalRead(PB4));
         _delay_ms(1000);
     }
 }
